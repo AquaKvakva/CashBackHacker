@@ -42,14 +42,14 @@ public class CashbackHackServiceTest {
         Assert.assertEquals(actual, expected);
     }
 
-//    @Test
-//    public void testTheAmountIsSufficient() {
-//        int amount = 1000;
-//        int actual = service.remain(amount);
-//        int expected = 0;
-//        Assert.assertEquals(actual, expected);
-//
-//    }
+    @Test
+    public void testTheAmountIsSufficient() {
+        int amount = 1000;
+        int actual = service.remain(amount);
+        int expected = 0;
+        Assert.assertEquals(actual, expected);
+
+    }
 
 
 }
